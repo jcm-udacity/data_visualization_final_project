@@ -20,8 +20,8 @@ days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday',
         'Friday', 'Saturday', 'Sunday']
 
 # convert numeric encodings of month and day to string encodings
-flight_data['Month'].replace(range(1, 13), months, inplace=True)
-flight_data['DayOfWeek'].replace(range(1, 8), days, inplace=True)
+#flight_data['Month'].replace(range(1, 13), months, inplace=True)
+#flight_data['DayOfWeek'].replace(range(1, 8), days, inplace=True)
 
 # drop unused columns
 flight_data.drop(['CRSDepTime'], axis=1, inplace=True)
