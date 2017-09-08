@@ -38,6 +38,12 @@ security_delays = flight_data[flight_data['SecurityDelay'] != 0.0]
 late_aircraft_delays = flight_data[flight_data['LateAircraftDelay'] != 0.0]
                        [['Month', 'DayOfWeek', 'Time', 'LateAircraftDelay']]
 
+carrier_delays = carrier_delays.sample(5000)
+weather_delays = weather_delays.sample(5000)
+nas_delays = nas_delays.sample(5000)
+security_delays = security_delays.sample(5000)
+late_aircraft_delays = late_aircraft_delays.sample(5000)
+
 # set relative path for data directory
 rel_data_path = '../data/'
 
