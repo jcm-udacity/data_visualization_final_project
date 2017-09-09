@@ -46,7 +46,7 @@ function draw_flight_delays() {
         var x_scale = d3.scale.linear()
                               .domain([d3.min(data, getX) - 1, d3.max(data, getX) + 1])
                               .range([margin['left'], width + margin['left']]);
-        var y_scale = d3.scale.log()
+        var y_scale = d3.scale.linear()
                               .domain([d3.min(data, getY) - 1, d3.max(data, getY) + 1])
                               .range([height + margin['top'], margin['top']]); 
         
@@ -75,6 +75,8 @@ function draw_flight_delays() {
             .attr('cx', function(d) {return x_scale(getX(d));})
             .attr('cy', function(d) {return y_scale(getY(d));})
             .attr('r', 8)
+            .style('fill', 'blue')
+            .style('opacity', '.01');
             
        // x-axis
         chart.append('g')
