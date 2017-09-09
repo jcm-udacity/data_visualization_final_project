@@ -1,4 +1,2 @@
 # ignore large data files
-data/*.csv
-data/*.tsv
-data/*.json
+data/2008_Flight_Data.csv
