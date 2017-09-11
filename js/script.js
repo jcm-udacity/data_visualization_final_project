@@ -63,7 +63,7 @@ function draw_flight_delays() {
     
     // indicate the initial mode button is the first button by coloring it blue
     d3.select('.button')
-        .style('background', 'rgb(140, 240, 240)');
+        .style('background', 'rgb(240, 160, 80)');
     
     // plots the extracted data given a time mode
     function plot(data, dt, dcn, yl) {
@@ -262,7 +262,7 @@ function draw_flight_delays() {
                 .attr('y', margin['left'] * .25)             
                 .attr('x', -(margin['top'] + (height / 2)))
                 .attr('text-anchor', 'middle')
-                .text(yl + ' (Minutes)');
+                .text('Minutes');
         }
         
         // creates the intial plot of the delay charts
@@ -279,7 +279,7 @@ function draw_flight_delays() {
                d3.select(this)
                  .transition()
                  .duration(200)
-                 .style('background', 'rgb(140, 240, 240)');
+                 .style('background', 'rgb(240, 160, 80)');
                update(mode_index);
         });
     };

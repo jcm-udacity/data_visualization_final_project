@@ -27,6 +27,12 @@ body {
     font-size: 20px;
 }
 
+/* main title */
+.title_all {
+    font-size: 44px;
+    padding-bottom: 40px;
+}
+
 /* tooltip */
 .tooltip {
     opacity: 0;
