@@ -32,9 +32,9 @@ Kevin: Kevin suggested changing the color of the buttons to contrast with the bl
 Dan: Dan commented that the y-label axes were redundant, and only needed to include the units of measurement, since the titles of each individual chart described what those units specifically represented.  I agreed, and changed this, which allowed me to remove some text from the graph that served little purpose.
 
 ## Resources
-https://github.com/d3/d3/blob/master/API.md
-https://www.dashingd3js.com/svg-basic-shapes-and-d3js
-https://designshack.net/articles/css/whats-the-deal-with-display-inline-block/
-https://javascript.info/closure
-https://www.rita.dot.gov/bts/help/aviation/html/understanding.html#q4
-http://stat-computing.org/dataexpo/2009/the-data.html
+https://github.com/d3/d3/blob/master/API.md  
+https://www.dashingd3js.com/svg-basic-shapes-and-d3js  
+https://designshack.net/articles/css/whats-the-deal-with-display-inline-block/  
+https://javascript.info/closure  
+https://www.rita.dot.gov/bts/help/aviation/html/understanding.html#q4  
+http://stat-computing.org/dataexpo/2009/the-data.html  
